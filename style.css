@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100vh;
+  font-family: 'Inter', sans-serif;
+}
+
+main, div {
+  align-items: center;
+  display: flex;
+}
+
+main {
+  background-color: rgb(209, 93, 118);
+  height: 100%;
+  justify-content: center;
+  width: 100%;
+}
+
+section {
+  background-color: white;
+  padding: 2rem;
+}
+
+div {
+  padding: 1rem;
+}
+
+label {
+  padding-left: 1rem;
+}
+
+input[type="checkbox"] {
+  appearance: none;
+  border: 1px solid black;
+  border-radius: 4px;
+  height: 20px;
+  width: 20px;
+}
+
+input[type="checkbox"]:checked {
+  background-color: rgb(255, 37, 81);
+}
